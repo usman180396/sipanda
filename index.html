@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SIPANDA | MAN Kota Sorong</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<aside class="sidebar">
+  <div class="brand"><div class="logo">S</div><div><b>SIPANDA</b><small>Persuratan & Arsip Digital</small></div></div>
+  <nav>
+    <button data-page="dashboard" class="active">🏠 Dashboard</button>
+    <button data-page="masuk">📥 Surat Masuk</button>
+    <button data-page="keluar">📤 Surat Keluar</button>
+    <button data-page="disposisi">📝 Disposisi</button>
+    <button data-page="arsip">🗂️ Arsip Digital</button>
+    <button data-page="backup">💾 Backup Data</button>
+  </nav>
+  <div class="sidebottom">MAN KOTA SORONG<br><span>Versi GitHub Pages</span></div>
+</aside>
+<main>
+<header><div><span id="today"></span><h1 id="pageTitle">Dashboard</h1></div><div class="badge">SIPANDA</div></header>
+<div id="content"></div>
+</main>
+</div>
+<div id="modal" class="modal hidden"></div>
+<script src="app.js"></script>
+</body>
+</html>
